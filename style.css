@@ -1,0 +1,78 @@
+body::-webkit-scrollbar {
+    width: 12px;              
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(124, 124, 124);        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(39, 39, 39);    
+    border-radius: 20px;       
+    border: 3px solid rgb(124, 124, 124);  
+  }
+
+body{
+    background-color: black;
+}
+
+p{
+    width: 500px;
+}
+
+.carousel{
+    align-items: middle;
+}
+
+.prof1{
+    transition: 110ms;
+}
+
+.prof2{
+    transition: 110ms;
+}
+
+.prof3{
+    transition: 110ms;
+}
+
+.prof1:hover{
+    transition: 110ms;
+    scale: 90%;
+}
+
+.prof2:hover{
+    transition: 110ms;
+    scale: 90%;
+}
+
+.prof3:hover{
+    transition: 110ms;
+    scale: 90%;
+}
+
+.Buy{
+    background-color: rgb(184, 168, 24);;
+    color: black;
+    font-family:sans-serif;
+    border-radius: 50px;
+    padding: 25px;
+    outline: 0px;
+    border: 0px;
+    cursor: pointer;
+    transition: 110ms;
+}
+
+.Buy:hover{
+    transition: 110ms;
+    scale: 110%;
+}
+
+.Buy:active{
+    transition: 100ms;
+    scale: 120%;
+}
+
+.compra{
+    align-items: start;
+}
